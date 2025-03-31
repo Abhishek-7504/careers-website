@@ -1,2 +1,2 @@
-# web_app_1
+# web_app
 A website 
