@@ -1,0 +1,18 @@
+<div class="border-bottom row" style="margin-bottom: 16px; padding-bottom: 8px;">
+    <div class="col-9">
+      <h4 style="color: rgb(120, 120, 120); margin-bottom: 8px; text-decoration: underline;">
+              {{ job['Title'] }}  <!-- Use 'title' instead of 'Title' -->
+      </h4>
+      <div style="margin-bottom: 8px;">
+              <b>Location:</b> {{ job['Location'] }}  <!-- Use 'location' instead of 'Location' -->
+      </div>
+          {% if 'Salary' in job %}  <!-- Check for 'salary' instead of 'Salary' -->
+      <div style="margin-bottom: 8px;">
+              <b>Salary:</b> {{ job['Salary'] }}  <!-- Use 'salary' instead of 'Salary' -->
+      </div>
+          {% endif %}
+    </div>
+    <div class="col-3 d-flex justify-content-end align-items-center">  <!-- Align button to the right -->
+          <button type="button" class="btn btn-outline-secondary">Apply</button>
+    </div>
+</div>
