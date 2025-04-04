@@ -1,4 +1,4 @@
-Job listing website done using HTML, CSS for frontend and flask for backend
+Job listing website done using HTML, CSS, bootstrap for frontend and flask for backend
 
 ## Step 1 - Project Setup & Flask Basics
 
